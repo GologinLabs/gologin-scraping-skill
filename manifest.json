@@ -1,0 +1,63 @@
+{
+  "name": "gologin-webunlocker-skill",
+  "description": "Scraping-only web access using the gologin-webunlocker-sdk package and Gologin Web Unlocker",
+  "package": "gologin-webunlocker-sdk",
+  "cli": "gologin-webunlocker",
+  "repository": "https://github.com/GologinLabs/gologin-webunlocker-skill",
+  "homepage": "https://gologin.com/web-unlocker",
+  "keywords": [
+    "gologin",
+    "web unlocker",
+    "webunlocker",
+    "web scraping",
+    "scraping",
+    "html scraping",
+    "text extraction",
+    "markdown extraction",
+    "metadata extraction",
+    "node sdk",
+    "typescript sdk",
+    "batch scraping"
+  ],
+  "tool_groups": [
+    "scraping",
+    "sdk"
+  ],
+  "tools": [
+    {
+      "name": "webunlocker_scrape",
+      "group": "scraping",
+      "surface": "gologin-webunlocker scrape / WebUnlocker.scrape"
+    },
+    {
+      "name": "webunlocker_text",
+      "group": "scraping",
+      "surface": "gologin-webunlocker text / WebUnlocker.scrapeText"
+    },
+    {
+      "name": "webunlocker_markdown",
+      "group": "scraping",
+      "surface": "gologin-webunlocker markdown / WebUnlocker.scrapeMarkdown"
+    },
+    {
+      "name": "webunlocker_json",
+      "group": "scraping",
+      "surface": "gologin-webunlocker json / WebUnlocker.scrapeJSON"
+    },
+    {
+      "name": "webunlocker_batch_scrape",
+      "group": "sdk",
+      "surface": "WebUnlocker.batchScrape"
+    },
+    {
+      "name": "webunlocker_scrape_raw",
+      "group": "sdk",
+      "surface": "WebUnlocker.scrapeRaw"
+    },
+    {
+      "name": "webunlocker_build_scrape_url",
+      "group": "sdk",
+      "surface": "WebUnlocker.buildScrapeUrl"
+    }
+  ]
+}
