@@ -1,9 +1,9 @@
 ---
-name: gologin-webunlocker-skill
+name: gologin-scraping-skill
 description: Use this skill when an agent needs scraping-only web access through Gologin Web Unlocker, including HTML scraping, text extraction, markdown extraction, JSON metadata extraction, batch scraping helpers, and Node.js SDK integration with gologin-webunlocker-sdk.
 ---
 
-# Gologin Web Unlocker Skill
+# Gologin Scraping Skill
 
 Use this skill when the task should stay in scraping mode and does not need browser interaction.
 

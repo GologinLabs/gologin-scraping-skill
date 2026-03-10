@@ -1,4 +1,4 @@
 interface:
-  display_name: "Gologin Web Unlocker"
+  display_name: "Gologin Scraping"
   short_description: "Web scraping with Gologin Web Unlocker"
-  default_prompt: "Use $gologin-webunlocker-skill to scrape webpages, extract text or markdown, and integrate Gologin Web Unlocker into Node.js workflows."
+  default_prompt: "Use $gologin-scraping-skill to scrape webpages, extract text or markdown, and integrate Gologin Web Unlocker into Node.js workflows."

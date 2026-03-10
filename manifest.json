@@ -1,9 +1,9 @@
 {
-  "name": "gologin-webunlocker-skill",
+  "name": "gologin-scraping-skill",
   "description": "Scraping-only web access using the gologin-webunlocker-sdk package and Gologin Web Unlocker",
   "package": "gologin-webunlocker-sdk",
   "cli": "gologin-webunlocker",
-  "repository": "https://github.com/GologinLabs/gologin-webunlocker-skill",
+  "repository": "https://github.com/GologinLabs/gologin-scraping-skill",
   "homepage": "https://gologin.com/web-unlocker",
   "keywords": [
     "gologin",

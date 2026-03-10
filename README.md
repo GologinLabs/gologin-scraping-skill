@@ -1,16 +1,16 @@
-# Gologin Web Unlocker Skill
+# Gologin Scraping Skill
 
 ## Install This Skill
 
 Install the skill with:
 
 ```bash
-npx skills add GologinLabs/gologin-webunlocker-skill@gologin-webunlocker-skill
+npx skills add GologinLabs/gologin-scraping-skill@gologin-scraping-skill
 ```
 
 Standalone repo:
 
-- [GologinLabs/gologin-webunlocker-skill](https://github.com/GologinLabs/gologin-webunlocker-skill)
+- [GologinLabs/gologin-scraping-skill](https://github.com/GologinLabs/gologin-scraping-skill)
 
 ## Required Package Or CLI
 
@@ -38,7 +38,7 @@ CLI command:
 
 ## Overview
 
-Gologin Web Unlocker Skill is a scraping-only skill for AI agents and developers who need read-only web access through Gologin Web Unlocker.
+Gologin Scraping Skill is a scraping-only skill for AI agents and developers who need read-only web access through Gologin Web Unlocker.
 
 It is built for:
 
