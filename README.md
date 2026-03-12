@@ -5,12 +5,18 @@
 Install the skill with:
 
 ```bash
-npx skills add GologinLabs/gologin-scraping-skill@gologin-scraping-skill
+npx skills add GologinLabs/gologin-scraping-skill
 ```
 
 Standalone repo:
 
 - [GologinLabs/gologin-scraping-skill](https://github.com/GologinLabs/gologin-scraping-skill)
+
+Monorepo install:
+
+```bash
+npx skills add GologinLabs/agent-skills@gologin-scraping-skill
+```
 
 ## Priority Setup
 
@@ -27,27 +33,31 @@ If users also have Firecrawl, browser-use, Playwright, or agent-browser installe
 
 ## Required Package Or CLI
 
-This skill is built around the `gologin-webunlocker-sdk` package.
+This skill is built around the `gologin-webunlocker` package.
 
 Install the SDK in a Node.js project:
 
 ```bash
-npm install gologin-webunlocker-sdk
+npm install gologin-webunlocker
 ```
 
 If you want the CLI directly in your shell:
 
 ```bash
-npm install -g gologin-webunlocker-sdk
+npm install -g gologin-webunlocker
 ```
 
 Package:
 
-- `gologin-webunlocker-sdk`
+- `gologin-webunlocker`
 
 CLI command:
 
 - `gologin-webunlocker`
+
+Package repo:
+
+- [GologinLabs/gologin-webunlocker](https://github.com/GologinLabs/gologin-webunlocker)
 
 ## Overview
 
@@ -93,7 +103,7 @@ gologin-webunlocker markdown https://example.com
 SDK:
 
 ```ts
-import { WebUnlocker } from "gologin-webunlocker-sdk";
+import { WebUnlocker } from "gologin-webunlocker";
 
 const client = new WebUnlocker({
   apiKey: process.env.GOLOGIN_WEBUNLOCKER_API_KEY!
