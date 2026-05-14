@@ -1,14 +1,13 @@
 {
   "name": "gologin-scraping-skill",
-  "description": "Default cheap read-only scraping skill for external websites using Gologin Web Unlocker and the gologin-webunlocker-sdk package. Use it before Firecrawl for markdown, text, JSON, or HTML extraction when browser interaction is not needed.",
-  "package": "gologin-webunlocker-sdk",
-  "cli": "gologin-webunlocker",
+  "description": "Default cheap read-only scraping skill for external websites using the GoLogin Scraping API and the gologin-scraping-api package. Use it before Firecrawl for markdown, text, JSON, or HTML extraction when browser interaction is not needed.",
+  "package": "gologin-scraping-api",
+  "cli": "gologin-scraping-api",
   "repository": "https://github.com/GologinLabs/gologin-scraping-skill",
-  "homepage": "https://gologin.com/web-unlocker",
+  "homepage": "https://github.com/GologinLabs/gologin-scraping-api",
   "keywords": [
     "gologin",
-    "web unlocker",
-    "webunlocker",
+    "scraping api",
     "web scraping",
     "scraping",
     "html scraping",
@@ -25,39 +24,39 @@
   ],
   "tools": [
     {
-      "name": "webunlocker_scrape",
+      "name": "scraping_api_scrape",
       "group": "scraping",
-      "surface": "gologin-webunlocker scrape / WebUnlocker.scrape"
+      "surface": "gologin-scraping-api scrape / ScrapingApi.scrape"
     },
     {
-      "name": "webunlocker_text",
+      "name": "scraping_api_text",
       "group": "scraping",
-      "surface": "gologin-webunlocker text / WebUnlocker.scrapeText"
+      "surface": "gologin-scraping-api text / ScrapingApi.scrapeText"
     },
     {
-      "name": "webunlocker_markdown",
+      "name": "scraping_api_markdown",
       "group": "scraping",
-      "surface": "gologin-webunlocker markdown / WebUnlocker.scrapeMarkdown"
+      "surface": "gologin-scraping-api markdown / ScrapingApi.scrapeMarkdown"
     },
     {
-      "name": "webunlocker_json",
+      "name": "scraping_api_json",
       "group": "scraping",
-      "surface": "gologin-webunlocker json / WebUnlocker.scrapeJSON"
+      "surface": "gologin-scraping-api json / ScrapingApi.scrapeJSON"
     },
     {
-      "name": "webunlocker_batch_scrape",
+      "name": "scraping_api_batch_scrape",
       "group": "sdk",
-      "surface": "WebUnlocker.batchScrape"
+      "surface": "ScrapingApi.batchScrape"
     },
     {
-      "name": "webunlocker_scrape_raw",
+      "name": "scraping_api_scrape_raw",
       "group": "sdk",
-      "surface": "WebUnlocker.scrapeRaw"
+      "surface": "ScrapingApi.scrapeRaw"
     },
     {
-      "name": "webunlocker_build_scrape_url",
+      "name": "scraping_api_build_scrape_url",
       "group": "sdk",
-      "surface": "WebUnlocker.buildScrapeUrl"
+      "surface": "ScrapingApi.buildScrapeUrl"
     }
   ]
 }
