@@ -4,7 +4,7 @@ Goal:
 Use the Node.js SDK directly inside application code.
 
 ```ts
-import { ScrapingApi } from "gologin-scraping-api";
+import { ScrapingApi } from "gologin-webunlocker";
 
 const client = new ScrapingApi({
   apiKey: process.env.GOLOGIN_SCRAPING_API_KEY!

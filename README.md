@@ -16,23 +16,23 @@ npx skills add GologinLabs/agent-skills@gologin-scraping-skill
 
 ## Required Package Or CLI
 
-This skill is built around the `gologin-scraping-api` package.
+This skill is built around the GoLogin Scraping API. The npm package currently remains `gologin-webunlocker` as a compatibility package; it installs the primary `gologin-scraping-api` CLI command.
 
 Install the SDK in a Node.js project:
 
 ```bash
-npm install gologin-scraping-api
+npm install gologin-webunlocker
 ```
 
 If you want the CLI directly in your shell:
 
 ```bash
-npm install -g gologin-scraping-api
+npm install -g gologin-webunlocker
 ```
 
 Package:
 
-- `gologin-scraping-api`
+- `gologin-webunlocker`
 
 CLI command:
 
@@ -84,7 +84,7 @@ gologin-scraping-api markdown https://example.com
 SDK:
 
 ```ts
-import { ScrapingApi } from "gologin-scraping-api";
+import { ScrapingApi } from "gologin-webunlocker";
 
 const client = new ScrapingApi({
   apiKey: process.env.GOLOGIN_SCRAPING_API_KEY!

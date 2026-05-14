@@ -1,6 +1,6 @@
 # Tool Contracts
 
-This skill is a scraping-only wrapper around the `gologin-scraping-api` package and `gologin-scraping-api` CLI.
+This skill is a scraping-only wrapper around the `gologin-webunlocker` compatibility package and the `gologin-scraping-api` CLI.
 
 ## Summary
 
